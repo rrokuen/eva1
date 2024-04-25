@@ -1,0 +1,58 @@
+html {
+    /**Reset para rems**/
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+header .header-links{
+    display: flex;
+}
+
+header a{
+    font-size: 1.15rem;
+    color: white;
+    text-decoration: none;
+}
+
+header li{
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+header .header-links{
+    justify-content: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: #4e4d4d;
+}
+
+header a:hover{
+    color: #337ab7;
+    transition: 0.2s;
+}
+
+.container-main-header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-main-header{
+    margin-left: 100px;
+    width: 970px;
+}
+
+header .container{
+    margin-left: -250px;
+}
