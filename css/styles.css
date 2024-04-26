@@ -48,11 +48,86 @@ header a:hover{
     justify-content: space-evenly;
 }
 
-.container-main-header{
-    margin-left: 100px;
-    width: 970px;
-}
-
 header .container{
     margin-left: -250px;
+}
+
+.main-header select{
+    margin-right: -4px;
+    height: 30px;
+    width: 400px;
+    border-radius: 40px;
+    background-position: right center;
+
+}
+
+.carrito{
+    display: flex;
+    flex-direction: column;
+}
+
+.carrito i{
+    display: flex;
+    justify-content: center;
+}
+
+.promo{
+    padding: 150px 0px;
+    margin: 30px 0px;
+    background-color: white;
+    background-image: url(../banner_carro.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.productos{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contenedor{
+    width: 970px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.title{
+    font-size: 21px;
+    color: #2B2D42;
+    margin-left: -75px;
+    margin-top: -50px;
+    margin-bottom: -70px;
+}
+
+.plan img{
+    width: 100%;
+}
+
+.plan{
+    margin: 15px;
+}
+
+.planes .title-plan{
+    text-align: center;
+}
+
+.content{
+    display: flex;
+}
+
+.uniplan{
+    margin: 15px;
+}
+
+.planes{
+    padding-left: 19rem;
+    padding-right: 19rem;
 }
