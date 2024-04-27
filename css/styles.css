@@ -15,10 +15,6 @@ body{
     box-sizing: inherit;
 }
 
-.main-header option{
-    background-color: red;
-}
-
 header .header-links{
     display: flex;
 }
@@ -212,4 +208,96 @@ header .container{
     list-style: none;
     display: flex;
     justify-content: center;
+}
+
+.contenedor-sub{
+    text-align: center;
+}
+
+.contenedor-sub .title-sub{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+
+.contenedor-sub input{
+    border-radius: 20px 0 0 20px;
+    width: 420px;
+    height: 40px;
+    border:solid rgba(0, 0, 0, .1);
+    margin-right: -10px;
+}
+
+.contenedor-sub input{
+    padding-left: 15px;
+}
+
+.contenedor-sub button{
+    border-radius: 0 20px 20px 0;
+    background-color: #005397;
+    width: 150px;
+    height: 40px;
+    color: white;
+    border: none;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+
+    list-style: none;
+}
+
+.redes li{
+    margin-left: 30px;
+}
+
+.footer1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer1 li{
+    list-style: none;
+}
+
+.footer1 a{
+    text-decoration: none;
+    color: #B9BABC;
+}
+
+.footer1 a:hover{
+    color: #337ab7;
+    transition: 0.2s;
+}
+
+.footer1 li:hover{
+    color: #337ab7;
+    transition: 0.2s;
+}
+
+.footer1{
+    color: #B9BABC;
+    margin-top: 100px;
+}
+
+.footer1 i{
+    color: #337ab7;
+}
+
+.footer2{
+    color: #B9BABC;
+    height: 100px;
+    background-color: #1E1F29;
+}
+
+.footer2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer2 .text{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 12px;
 }
